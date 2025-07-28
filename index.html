@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos Ágiles & Economía</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">
+                <span>MetodosAgiles</span>
+                <div class="logo-dot"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#metodos">Métodos</a></li>
+                <li><a href="#ishikawa">Ishikawa</a></li>
+                <li><a href="#economia">Economía</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>Transformando Organizaciones con Agilidad</h1>
+            <p>Descubre cómo los métodos ágiles y el análisis económico pueden revolucionar tu negocio</p>
+            <a href="#metodos" class="cta-button">Explorar</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="metodos" class="section">
+        <div class="section-header">
+            <h2>Métodos Ágiles y Lean</h2>
+            <p>Enfoques modernos para la gestión de proyectos</p>
+        </div>
+        <div class="methods-container">
+            <div class="method-card">
+                <div class="method-icon agile"></div>
+                <h3>Métodos Ágiles</h3>
+                <p>Enfoque iterativo e incremental para el desarrollo de productos, centrado en la colaboración y la adaptabilidad.</p>
+                <button class="learn-more" data-modal="agile-modal">Aprender más</button>
+            </div>
+            <div class="method-card">
+                <div class="method-icon lean"></div>
+                <h3>Metodología Lean</h3>
+                <p>Sistema de gestión que busca maximizar el valor para el cliente mientras se minimiza el desperdicio.</p>
+                <button class="learn-more" data-modal="lean-modal">Aprender más</button>
+            </div>
+            <div class="method-card">
+                <div class="method-icon scrum"></div>
+                <h3>Scrum</h3>
+                <p>Marco de trabajo ágil que utiliza iteraciones cortas (sprints) para entregar valor de forma continua.</p>
+                <button class="learn-more" data-modal="scrum-modal">Aprender más</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="ishikawa" class="section dark-section">
+        <div class="section-header">
+            <h2>Diagrama de Ishikawa</h2>
+            <p>Herramienta para el análisis de causa-efecto</p>
+        </div>
+        <div class="ishikawa-container">
+            <div class="ishikawa-info">
+                <h3>También conocido como diagrama de espina de pescado</h3>
+                <p>El diagrama de Ishikawa es una herramienta gráfica utilizada para identificar y organizar las posibles causas de un problema específico.</p>
+                <ul class="ishikawa-list">
+                    <li><span>6M:</span> Método, Mano de obra, Materiales, Maquinaria, Medio ambiente, Medición</li>
+                    <li><span>8P:</span> Producto, Precio, Plaza, Promoción, Personas, Procesos, Pruebas físicas, Productividad</li>
+                    <li><span>4S:</span> Entorno, Proveedores, Sistemas, Habilidades</li>
+                </ul>
+            </div>
+            <div class="ishikawa-diagram-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Diagrama-general-de-causa-efecto.svg" 
+                    alt="Diagrama de Ishikawa (Causa-Efecto)"
+                    class="ishikawa-image">
+                <p class="diagram-caption">Diagrama de Causa-Efecto (Ishikawa) - Ejemplo estándar</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="economia" class="section">
+        <div class="section-header">
+            <h2>Macroeconomía y Microeconomía</h2>
+            <p>Análisis económico a diferentes escalas</p>
+        </div>
+        <div class="economy-tabs">
+            <div class="tab-buttons">
+                <button class="tab-button active" data-tab="macro">Macroeconomía</button>
+                <button class="tab-button" data-tab="micro">Microeconomía</button>
+                <button class="tab-button" data-tab="comparison">Comparación</button>
+            </div>
+            <div class="tab-content active" id="macro">
+                <h3>Macroeconomía</h3>
+                <p>Estudio del comportamiento y desempeño de una economía en su conjunto, enfocándose en fenómenos como inflación, desempleo, crecimiento económico y política fiscal/monetaria.</p>
+                <div class="economy-indicators">
+                    <div class="indicator">
+                        <div class="indicator-icon"><i class="fas fa-chart-line"></i></div>
+                        <h4>PIB</h4>
+                        <p>Producto Interno Bruto - Medida del valor de mercado de todos los bienes y servicios finales producidos en un país.</p>
+                    </div>
+                    <div class="indicator">
+                        <div class="indicator-icon"><i class="fas fa-money-bill-wave"></i></div>
+                        <h4>Inflación</h4>
+                        <p>Aumento generalizado y sostenido de los precios de bienes y servicios en una economía.</p>
+                    </div>
+                    <div class="indicator">
+                        <div class="indicator-icon"><i class="fas fa-users"></i></div>
+                        <h4>Desempleo</h4>
+                        <p>Situación en la que parte de la población que busca empleo no puede encontrarlo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="micro">
+                <h3>Microeconomía</h3>
+                <p>Estudio del comportamiento económico de individuos, hogares y empresas, y cómo toman decisiones para asignar recursos limitados.</p>
+                <div class="economy-concepts">
+                    <div class="concept-card">
+                        <h4>Oferta y Demanda</h4>
+                        <p>Modelo que determina los precios en un mercado competitivo.</p>
+                        <div class="supply-demand-chart" id="supply-demand-chart"></div>
+                    </div>
+                    <div class="concept-card">
+                        <h4>Elasticidad</h4>
+                        <p>Medida de cómo responde la cantidad demandada u ofertada a cambios en precios.</p>
+                    </div>
+                    <div class="concept-card">
+                        <h4>Teoría del Consumidor</h4>
+                        <p>Cómo los consumidores maximizan su utilidad sujetos a restricciones presupuestarias.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="comparison">
+                <h3>Comparación</h3>
+                <div class="comparison-table-container">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Aspecto</th>
+                                <th>Macroeconomía</th>
+                                <th>Microeconomía</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Enfoque</td>
+                                <td>Economía en su conjunto</td>
+                                <td>Agentes económicos individuales</td>
+                            </tr>
+                            <tr>
+                                <td>Temas principales</td>
+                                <td>PIB, inflación, desempleo</td>
+                                <td>Oferta/demanda, precios, costos</td>
+                            </tr>
+                            <tr>
+                                <td>Políticas</td>
+                                <td>Fiscal, monetaria</td>
+                                <td>Regulación de mercados</td>
+                            </tr>
+                            <tr>
+                                <td>Nivel de análisis</td>
+                                <td>Agregado</td>
+                                <td>Individual</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>MetodosAgiles</h4>
+                <p>Plataforma educativa sobre métodos ágiles y análisis económico para profesionales modernos.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="#metodos">Métodos Ágiles</a></li>
+                    <li><a href="#ishikawa">Diagrama de Ishikawa</a></li>
+                    <li><a href="#economia">Economía</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Recursos</h4>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Webinars</a></li>
+                    <li><a href="#">Plantillas</a></li>
+                    <li><a href="#">Glosario</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Suscríbete</h4>
+                <p>Recibe nuestras últimas actualizaciones.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu email">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 MetodosAgiles. Todos los derechos reservados.</p>
+            <div class="legal-links">
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Términos de Servicio</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modales -->
+    <div id="agile-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Métodos Ágiles</h2>
+            <div class="modal-body">
+                <p>Los métodos ágiles son enfoques para el desarrollo de software y gestión de proyectos que enfatizan:</p>
+                <ul>
+                    <li>Entregas incrementales y frecuentes</li>
+                    <li>Colaboración cercana con el cliente</li>
+                    <li>Adaptabilidad al cambio</li>
+                    <li>Equipos auto-organizados</li>
+                </ul>
+                <h3>Manifiesto Ágil (2001)</h3>
+                <div class="agile-principles">
+                    <div class="principle">
+                        <h4>Individuos e interacciones</h4>
+                        <p>sobre procesos y herramientas</p>
+                    </div>
+                    <div class="principle">
+                        <h4>Software funcionando</h4>
+                        <p>sobre documentación extensiva</p>
+                    </div>
+                    <div class="principle">
+                        <h4>Colaboración con el cliente</h4>
+                        <p>sobre negociación contractual</p>
+                    </div>
+                    <div class="principle">
+                        <h4>Respuesta ante el cambio</h4>
+                        <p>sobre seguir un plan</p>
+                    </div>
+                </div>
+                <h3>Frameworks Ágiles Populares</h3>
+                <div class="agile-frameworks">
+                    <div class="framework">
+                        <h4>Scrum</h4>
+                        <p>Iteraciones fijas (sprints), roles definidos (Product Owner, Scrum Master, Team)</p>
+                    </div>
+                    <div class="framework">
+                        <h4>Kanban</h4>
+                        <p>Flujo continuo, limitación de trabajo en progreso, visualización</p>
+                    </div>
+                    <div class="framework">
+                        <h4>XP (Extreme Programming)</h4>
+                        <p>Programación en parejas, desarrollo guiado por pruebas, integración continua</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="lean-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Metodología Lean</h2>
+            <div class="modal-body">
+                <p>Originada en el Sistema de Producción Toyota, Lean se enfoca en:</p>
+                <ul>
+                    <li>Eliminación de desperdicios (muda)</li>
+                    <li>Creación de flujo continuo</li>
+                    <li>Mejora continua (kaizen)</li>
+                    <li>Producción pull (basada en demanda)</li>
+                </ul>
+                <h3>Principios Lean</h3>
+                <div class="lean-principles">
+                    <div class="principle">
+                        <h4>1. Valor</h4>
+                        <p>Definido por el cliente</p>
+                    </div>
+                    <div class="principle">
+                        <h4>2. Flujo de Valor</h4>
+                        <p>Identificar y mapear todas las actividades</p>
+                    </div>
+                    <div class="principle">
+                        <h4>3. Flujo Continuo</h4>
+                        <p>Eliminar interrupciones</p>
+                    </div>
+                    <div class="principle">
+                        <h4>4. Producción Pull</h4>
+                        <p>Basada en demanda real</p>
+                    </div>
+                    <div class="principle">
+                        <h4>5. Perfección</h4>
+                        <p>Búsqueda continua de mejora</p>
+                    </div>
+                </div>
+                <h3>Tipos de Desperdicio (Muda)</h3>
+                <div class="waste-types">
+                    <div class="waste">
+                        <h4>1. Sobreproducción</h4>
+                        <p>Producir más de lo necesario</p>
+                    </div>
+                    <div class="waste">
+                        <h4>2. Espera</h4>
+                        <p>Tiempos de inactividad</p>
+                    </div>
+                    <div class="waste">
+                        <h4>3. Transporte</h4>
+                        <p>Movimiento innecesario</p>
+                    </div>
+                    <div class="waste">
+                        <h4>4. Sobreprocesamiento</h4>
+                        <p>Funciones innecesarias</p>
+                    </div>
+                    <div class="waste">
+                        <h4>5. Inventario</h4>
+                        <p>Exceso de materiales</p>
+                    </div>
+                    <div class="waste">
+                        <h4>6. Movimiento</h4>
+                        <p>Movimientos innecesarios</p>
+                    </div>
+                    <div class="waste">
+                        <h4>7. Defectos</h4>
+                        <p>Errores y retrabajo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="scrum-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Scrum</h2>
+            <div class="modal-body">
+                <p>Scrum es un marco de trabajo ágil para desarrollo de productos complejos, caracterizado por:</p>
+                <ul>
+                    <li>Iteraciones cortas (sprints) de 1-4 semanas</li>
+                    <li>Roles definidos: Product Owner, Scrum Master, Development Team</li>
+                    <li>Artefactos: Product Backlog, Sprint Backlog, Incremento</li>
+                    <li>Eventos: Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective</li>
+                </ul>
+                <h3>Roles en Scrum</h3>
+                <div class="scrum-roles">
+                    <div class="role">
+                        <h4>Product Owner</h4>
+                        <p>Maximiza el valor del producto, gestiona el Product Backlog</p>
+                    </div>
+                    <div class="role">
+                        <h4>Scrum Master</h4>
+                        <p>Facilita el proceso, elimina impedimentos</p>
+                    </div>
+                    <div class="role">
+                        <h4>Development Team</h4>
+                        <p>Equipo auto-organizado que entrega incrementos</p>
+                    </div>
+                </div>
+                <h3>Artefactos</h3>
+                <div class="scrum-artifacts">
+                    <div class="artifact">
+                        <h4>Product Backlog</h4>
+                        <p>Lista priorizada de todo lo que se necesita en el producto</p>
+                    </div>
+                    <div class="artifact">
+                        <h4>Sprint Backlog</h4>
+                        <p>Elementos del Product Backlog seleccionados para el Sprint</p>
+                    </div>
+                    <div class="artifact">
+                        <h4>Incremento</h4>
+                        <p>Producto funcional entregado al final del Sprint</p>
+                    </div>
+                </div>
+                <h3>Eventos (Ceremonias)</h3>
+                <div class="scrum-events">
+                    <div class="event">
+                        <h4>Sprint Planning</h4>
+                        <p>Planificación del trabajo para el Sprint</p>
+                    </div>
+                    <div class="event">
+                        <h4>Daily Scrum</h4>
+                        <p>Reunión diaria de 15 minutos para sincronización</p>
+                    </div>
+                    <div class="event">
+                        <h4>Sprint Review</h4>
+                        <p>Revisión del incremento con stakeholders</p>
+                    </div>
+                    <div class="event">
+                        <h4>Sprint Retrospective</h4>
+                        <p>Reflexión sobre el proceso para mejoras</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
